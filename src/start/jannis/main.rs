@@ -1,5 +1,9 @@
 mod test {
-    fn main() {
-        println!("Hello World!")
+    pub fn main() {
+        println!("Hello World!");
     }
+}
+
+fn main() {
+    test::main();
 }
