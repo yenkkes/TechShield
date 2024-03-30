@@ -1,8 +1,0 @@
-[TechShield]
-name = "TechShield"
-version = "0.1.0"
-authors = ["jannis steinj2311@gmail.com"]
-edition = "2024"
-
-[dependencies]
-rand = "0.8.4"
