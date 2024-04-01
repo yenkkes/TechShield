@@ -1,3 +1,5 @@
+mod test1;
+use test1::start;
 fn main() {
-    println!("Hello, world!");
+    test1::start();
 }
