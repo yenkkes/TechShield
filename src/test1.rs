@@ -1,4 +1,7 @@
 pub fn start() {
-    let x = "Test";
-    println!(" {} Test", x)
+    let mut x = "Abend";
+    if x == "Abend" {
+        x = "Morgen";
+        println!("Guten {}", x)
     }
+}
